@@ -54,11 +54,13 @@
                                     <action selector="resetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uyu-JF-FPf"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text=" История изменений" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Ww-6P-Hwe">
-                                <rect key="frame" x="42" y="735" width="309" height="40"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Ww-6P-Hwe">
+                                <rect key="frame" x="20" y="684" width="353" height="91"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <string key="text"> История изменений:
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -66,10 +68,10 @@
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="dzl-fR-Bgd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="3wR-tC-kpa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Ww-6P-Hwe" secondAttribute="trailing" constant="42" id="6Ca-nj-OWI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Ww-6P-Hwe" secondAttribute="trailing" constant="20" id="6Ca-nj-OWI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dbe-jS-cva" secondAttribute="bottom" constant="170" id="C2u-nz-FdO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbe-jS-cva" secondAttribute="trailing" constant="159" id="LVR-mA-Yeq"/>
-                            <constraint firstItem="0Ww-6P-Hwe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="N3o-ex-5WX"/>
+                            <constraint firstItem="0Ww-6P-Hwe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N3o-ex-5WX"/>
                             <constraint firstItem="uBC-wc-s7e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RND-f5-Xoo"/>
                             <constraint firstItem="dzl-fR-Bgd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="Up9-kD-IxE"/>
                             <constraint firstItem="ONg-h3-aXl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Vf5-cf-qth"/>
@@ -77,7 +79,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ONg-h3-aXl" secondAttribute="trailing" constant="40" id="idL-E6-BtN"/>
                             <constraint firstItem="uBC-wc-s7e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lsb-jv-Z4I"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Ww-6P-Hwe" secondAttribute="bottom" constant="43" id="oPB-bY-DDf"/>
-                            <constraint firstItem="0Ww-6P-Hwe" firstAttribute="top" secondItem="dbe-jS-cva" secondAttribute="bottom" constant="87" id="pyu-Nm-IlE"/>
+                            <constraint firstItem="0Ww-6P-Hwe" firstAttribute="top" secondItem="dbe-jS-cva" secondAttribute="bottom" constant="36" id="pyu-Nm-IlE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dzl-fR-Bgd" secondAttribute="trailing" constant="159" id="xKP-ss-dfQ"/>
                         </constraints>
                     </view>

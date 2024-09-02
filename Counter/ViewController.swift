@@ -71,7 +71,7 @@ extension ViewController {
     
     func updateChangeHistory(with message: String) {
         let currentDateTime = getCurrentFormattedDate()
-        changeHistoryTextView.text = "\(currentDateTime): \(message)"
+        changeHistoryTextView.text += "\(currentDateTime): \(message)\n"
     }
     
 }
