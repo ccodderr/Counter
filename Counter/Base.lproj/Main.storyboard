@@ -84,9 +84,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="changeHistoryTextView" destination="0Ww-6P-Hwe" id="sEw-M8-heU"/>
                         <outlet property="countLabel" destination="uBC-wc-s7e" id="yrb-gv-bOa"/>
                         <outlet property="decreaseButton" destination="dbe-jS-cva" id="Pdi-3Y-yHO"/>
+                        <outlet property="historyTextView" destination="0Ww-6P-Hwe" id="VSk-oz-z0f"/>
                         <outlet property="increaseButton" destination="dzl-fR-Bgd" id="5UR-hh-Rox"/>
                         <outlet property="resetCountButton" destination="ONg-h3-aXl" id="XP2-Ut-dFh"/>
                     </connections>
